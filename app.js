@@ -19,3 +19,9 @@ console.log(twoSum([1, 2, 3, 4, 5], 7))
 console.log('should return [2, 4]')
 console.log(twoSum([1, 2, 3, 4, 5], 9))
 console.log('should return [3, 4]')
+
+// i want to generate current year for footer, © 2024 Seltenet Technology. All rights reserved.
+var currentYear = new Date().getFullYear()
+var footer = document.querySelector('.footer')
+footer.innerHTML = `© ${currentYear} Seltenet Technology. All rights reserved.`
+console.log(currentYear)
